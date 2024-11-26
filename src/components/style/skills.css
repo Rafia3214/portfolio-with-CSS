@@ -1,0 +1,79 @@
+#skills{
+    padding: 100px 50px;
+}
+.section-info{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.section-info h1{
+    font-size: 3em;
+}
+.skills-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:var(--second-background);
+    padding: 70px;
+}
+.skills h1{
+    font-size:7em;
+    align-items: center;
+}
+.skills-left-col{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.skills-left-col p{
+    font-size: 20px;
+
+}
+.btn{
+    padding: 0.5em 1em;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 0.5em;
+    font-size: 1.1em;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;     
+}
+
+.skills-right-col{
+    flex-basis: 50%;
+}
+.progress{
+    width: 80%;
+}
+.progress-div{
+    width: 70%;
+    margin: auto;
+}
+.progress-div p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 80px;
+    text-align: justify;
+}
+@media only screen and (max-width:768){
+
+    .skills-left-col{
+        flex-basis: 100%;
+    }
+    .skills-right-col{
+        flex-basis: 100%;
+    }
+    .progress-div{
+        width: 100%;
+
+    }
+    .progress-div p{
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding-left: 10px;
+        text-align: justify;
+}
+
+}
